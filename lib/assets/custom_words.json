@@ -1,0 +1,21 @@
+{
+    "words" : [
+        {
+            "word":  "",
+            "description" : "",
+            "type" : ""
+        },
+        {
+            "word": "",
+            "description" : "",
+            "type" : ""
+        }
+    ],
+    "abreviations" : [
+        {
+            "abreviation": "",
+            "meaning": "",
+            "type" : ""
+        }
+    ]
+}

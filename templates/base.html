@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+        <title>Search Engine</title>
+    </head>
+    <body>
+        <div class="main"> 
+            <i class="fa fa-gear" style="font-size:24px; position:absolute; right:0; top:-15px;"></i>
+            {% block content %} {% endblock %}
+        </div>
+    </body>
+</html>
