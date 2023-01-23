@@ -13,7 +13,7 @@ from flask import Flask, render_template, request
 from elasticsearch import Elasticsearch
 
 # Internal Imports
-from utils import elastic_utils
+from utils.elastic_utils import search_elasticsearch
 from utils.entitiy_recognition import EntityRecognition
 from utils.neo4j_utils import get_details
 
@@ -37,6 +37,7 @@ def home():
     if request.method == "POST":
         er = EntityRecognition()
         res = er.run(request.form['search'])
+        #results = search_elasticsearch("Person", "John")
     if res:
         css_height = "5"
     else:

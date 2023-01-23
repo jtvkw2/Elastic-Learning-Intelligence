@@ -1,20 +1,43 @@
 {
-    "Classes" : {
-        "Class 1" : {
-            "Value" : "Value"
-        }
+    "person": {
+        "node_type": "Person",
+        "node_properties": {
+            "first_name": "first_name",
+            "last_name": "last_name",
+            "age": "age",
+            "gender": "gender"
+        },
+        "relationships": [
+            {
+                "type": "WORKS_AT",
+                "n2": "company_id"
+            },
+            {
+                "type": "LIVES_IN",
+                "n2": "address_id"
+            }
+        ]
     },
-
-    "Nodes" : {
-        "Node 1" : {
-            "ID" : "1"
-        }
+    "company": {
+        "node_type": "Company",
+        "node_properties": {
+            "name": "name",
+            "industry": "industry"
+        },
+        "relationships": [
+            {
+                "type": "LOCATED_IN",
+                "n2": "address_id"
+            }
+        ]
     },
-    
-    "Relationship" : {
-        "Relationship 1" : {
-            "From" : "Node 1",
-            "To"   : "Node 2"
+    "address": {
+        "node_type": "Address",
+        "node_properties": {
+            "street": "street",
+            "city": "city",
+            "state": "state",
+            "zip": "zip"
         }
     }
 }
