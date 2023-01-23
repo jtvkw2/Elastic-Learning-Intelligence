@@ -1,0 +1,11 @@
+{
+    "Flask": {
+        "Domain": "http://127.0.0.1:5000"
+    },
+    "Elasticsearch": {
+        "Index": "es_index"
+    },
+    "Neo4j": {
+        "Database_URL": "bolt://neo4j:neo4j@localhost:7687"
+    }
+}

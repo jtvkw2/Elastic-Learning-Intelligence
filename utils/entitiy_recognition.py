@@ -4,14 +4,10 @@ import json
 class EntityRecognition:
     def __init__(self) -> None:
         self.core = spacy.load("en_core_web_sm")
-        #self.postal = spacy.load("postal_er_large")
 
     def run(self, text):
         # List of all entities
         results = []
-        
-        # Run with custom model
-            # doc = self.postal(text)
         
         # Run with general model
         doc = self.core(text)

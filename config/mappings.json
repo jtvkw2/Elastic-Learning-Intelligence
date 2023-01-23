@@ -1,0 +1,20 @@
+{
+    "Classes" : {
+        "Class 1" : {
+            "Value" : "Value"
+        }
+    },
+
+    "Nodes" : {
+        "Node 1" : {
+            "ID" : "1"
+        }
+    },
+    
+    "Relationship" : {
+        "Relationship 1" : {
+            "From" : "Node 1",
+            "To"   : "Node 2"
+        }
+    }
+}

@@ -1,8 +1,15 @@
 {% extends 'base.html' %}
 
 {% block content %}
+    <a href = "{{url_for('mappings')}}"><i class="material-icons" style = "float: right;">map</i></a>
+    <a href = "{{url_for('settings')}}"><i class="material-icons" style = "float: right;">settings</i></a>
     <div class="logo">
-        <img src="https://www.carchesio.it/Search/img/logo.png">
+        <h1>ElasticGraph</h1>
     </div>
-    <input placeholder="Keyword here..." class="search" autocomplete="off">
+    <form method="post">
+        <input name = "search" placeholder="Keyword here..." class="search" autocomplete="off" value="{{ request.form.search}}" type = "search" style = "margin-top: {{css_height}}%;">
+    </form>
+    {%for e in er%}
+        <pre>{{e}}</pre>
+    {%endfor%}
 {% endblock %}

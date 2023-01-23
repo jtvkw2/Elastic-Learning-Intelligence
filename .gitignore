@@ -1,2 +1,3 @@
 __pycache__/
-config/
+index_mappings.py
+json_mappings.py

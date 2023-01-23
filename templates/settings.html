@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <a href = "{{url_for('mappings')}}"><i class="material-icons" style = "float: right;">map</i></a>
+    <a href = "{{url_for('home')}}"><i class="material-icons" style = "float: right;">home</i></a>
+    <div class="logo">
+        <h1>ElasticGraph</h1>
+    </div>
+    <div>
+        {%for key, val in config.items()%}
+            <h2>{{key}}</h2>
+            <form method="post">
+            {%for title, value in val.items()%}
+                <input type="hidden" value="{{key}}" name="key">
+                <input type="hidden" value="{{title}}" name="title">
+                <span>{{title}}</title>
+                <input type="text" value="{{value}}" name="value">
+            {%endfor%} 
+            </form>
+        {%endfor%}
+    </div>
+{% endblock %}

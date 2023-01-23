@@ -51,8 +51,3 @@ class Insert:
         pass
         #node
         #create_nodes(node_info)
-        
-        
-        
-insert = Insert()
-print(json.dumps(insert.from_csv("../data/CSV/complaints.csv", "C360")))

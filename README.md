@@ -1,4 +1,7 @@
 # ElasticGraph
+
+![ElasticGraph Logo](static/images/logo-banner.png "Title")
+
 A semantic search webapp built onto of a neo4j database
 
 ## Instalation
