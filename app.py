@@ -16,6 +16,7 @@ from elasticsearch import Elasticsearch
 from utils.elastic_utils import search_elasticsearch
 from utils.entitiy_recognition import EntityRecognition
 from utils.neo4j_utils import get_details
+from utils.ingest import Insert
 
 app = Flask(__name__)
 app.config['ENV'] = 'development'
@@ -28,8 +29,7 @@ with open("config/config.json") as c:
 with open("config/mappings.json") as m:
     config_mappings = json.loads(m.read())
     
-# es = Elasticsearch(hosts=config.DOMAIN)
-# elastic_utils.check_and_create_index(es, config.INDEX)
+es = Elasticsearch(hosts=config['Elasticsearch']['Host'])
  
 @app.route('/', methods = ["GET", "POST"])
 def home():
@@ -64,6 +64,12 @@ def results():
     detail_id = 0
     details = get_details(detail_id)
     return render_template('result.html', details = details)
+
+@app.route('/ingest', methods = ["GET", "POST"])
+def ingest():
+    ingest = Insert(config=config, config_mappings=config_mappings)
+    records = ingest.from_csv("data/people.csv")
+    print(records)
 
 # main driver function
 if __name__ == '__main__':

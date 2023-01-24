@@ -5,35 +5,28 @@ from neo4j import GraphDatabase
 import sys
 import json
 
-# Internal Imports
-sys.path.append('../')
-with open("config/config.json") as c:
-    config = json.loads(c.read())
-
-with open("config/mappings.json") as m:
-    config_mappings = json.loads(m.read())
-
 class Insert:
-    def __init__(self):
-        self.db = GraphDatabase.driver(config['DATABASE_URL'])
+    def __init__(self, config, config_mappings):
+        self.db = GraphDatabase.driver(config['Neo4j']['DATABASE_URL'])
         self.records = None
         self.mapped_records = None
+        self.config_mappings = config_mappings
         
     def is_valid_type(self, input_type):
-        if input_type in config_mappings:
+        if input_type in self.config_mappings:
             return True
         else:
             return False
     
     def get_node_definitions(self, node_type):
-        if node_type in config_mappings:
-            return config_mappings[node_type]
+        if node_type in self.config_mappings:
+            return self.config_mappings[node_type]
     
     def from_csv(self, input_csv, input_type):
         assert self.is_valid_type(input_type)
-        df = pd.read_csv(input_csv)[:10]
+        df = pd.read_csv(input_csv)
         self.records = df.to_dict(orient='records')
-        self.mapped_records = self.map_to_json(self.records[0], input_type, config_mappings)
+        self.mapped_records = self.map_to_json(self.records[0], input_type, self.config_mappings)
         return self.mapped_records
         
     def map_to_json(self, input_data, data_type, neo4j_mappings):
