@@ -7,7 +7,7 @@ A semantic search engine webapp built onto of a neo4j database which is indexed 
 ## This Project is Still Under Development
 Please check back later to use this tool once I have a release or help contribute to the project.
 
-## ToDos - Need to move this to Issues
+## ToDos
 - [ ] Add Flask Login
   - [ ] Create seperate views based on login (i.e. Admin Panel)
   - [ ] Maybe search history and saved data?
