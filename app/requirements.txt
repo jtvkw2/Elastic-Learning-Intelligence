@@ -1,3 +1,5 @@
 flask
 elasticsearch
 spacy
+pandas
+neo4j

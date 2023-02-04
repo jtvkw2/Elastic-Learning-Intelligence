@@ -3,7 +3,7 @@ import json
  
 class EntityRecognition:
     def __init__(self) -> None:
-        self.core = spacy.load("en_core_web_sm")
+        self.core = spacy.load("en_core_web_lg")
 
     def run(self, text):
         # List of all entities

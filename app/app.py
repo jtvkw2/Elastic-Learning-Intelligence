@@ -5,9 +5,8 @@ Author: Jacob Voyles
 Date 12/30/2022
 
 """
-
 # External Library Imports
-import urllib.parse
+import os
 import json
 from flask import Flask, render_template, request
 from elasticsearch import Elasticsearch
@@ -19,24 +18,21 @@ from utils.neo4j_utils import get_details
 from utils.ingest import Insert
 
 app = Flask(__name__)
-app.config['ENV'] = 'development'
-app.config['DEBUG'] = True
-app.config['TESTING'] = True
 
-with open("config/config.json") as c:
-    config = json.loads(c.read())
-    
 with open("config/mappings.json") as m:
     config_mappings = json.loads(m.read())
     
-es = Elasticsearch(hosts=config['Elasticsearch']['Host'])
+es_host = os.environ['DOCKER_MACHINE_IP']
+print('Elastic host is {}'.format(es_host))    
+es = Elasticsearch("http://localhost:9200")
  
 @app.route('/', methods = ["GET", "POST"])
 def home():
     res = []
     if request.method == "POST":
         er = EntityRecognition()
-        res = er.run(request.form['search'])
+        #res = er.run(request.form['search'])
+        res = es.info() 
         #results = search_elasticsearch("Person", "John")
     if res:
         css_height = "5"
@@ -46,14 +42,7 @@ def home():
  
 @app.route('/settings', methods = ["GET", "POST"])
 def settings():
-    if request.method == "POST":
-        key = request.form['key']
-        title = request.form['title']
-        value = request.form['value']
-        config[key][title] = value
-        with open("config/config.json", 'w') as f:
-            json.dump(config, f, indent=4)
-    return render_template('settings.html', config = config)
+     return render_template('settings.html')
 
 @app.route('/mappings', methods = ["GET", "POST"])
 def mappings():
@@ -67,10 +56,10 @@ def results():
 
 @app.route('/ingest', methods = ["GET", "POST"])
 def ingest():
-    ingest = Insert(config=config, config_mappings=config_mappings)
-    records = ingest.from_csv("data/people.csv")
+    ingest = Insert(config_mappings=config_mappings)
+    records = ingest.from_csv("data/people.csv", "person")
     print(records)
 
 # main driver function
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, host='0.0.0.0')

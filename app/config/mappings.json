@@ -1,6 +1,7 @@
 {
     "person": {
         "node_type": "Person",
+        "node_id": "person_id",
         "node_properties": {
             "first_name": "first_name",
             "last_name": "last_name",
@@ -20,6 +21,7 @@
     },
     "company": {
         "node_type": "Company",
+        "node_id": "company_id",
         "node_properties": {
             "name": "name",
             "industry": "industry"
@@ -33,6 +35,7 @@
     },
     "address": {
         "node_type": "Address",
+        "node_id": "address_id",
         "node_properties": {
             "street": "street",
             "city": "city",
