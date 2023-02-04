@@ -2,7 +2,7 @@
 
 ![ElasticGraph Logo](static/images/logo-banner.png "Title")
 
-A semantic search engine webapp built onto of a neo4j database which is indexed using ElasticSearch. Designed to connect and search large amounts of data from a simple user interface. 
+A graph based semantic search engine webapp built onto of a ElasticSearch. Designed to connect and search large amounts of data from a simple user interface. 
 
 ## This Project is Still Under Development
 Please check back later to use this tool once I have a release or help contribute to the project.
