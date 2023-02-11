@@ -6,4 +6,4 @@ with open("config/mappings.json") as m:
     
 ingest = Insert(config_mappings=config_mappings)
 records = ingest.from_csv("data/people.csv", "person")
-print(records)
+ingest.insert_data("ES")

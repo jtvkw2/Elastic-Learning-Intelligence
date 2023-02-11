@@ -21,10 +21,8 @@ app = Flask(__name__)
 
 with open("config/mappings.json") as m:
     config_mappings = json.loads(m.read())
-    
-es_host = os.environ['DOCKER_MACHINE_IP']
-print('Elastic host is {}'.format(es_host))    
-es = Elasticsearch("http://localhost:9200")
+       
+es = Elasticsearch([{'host':'elasticsearch','port':9200, "scheme": "http"}], verify_certs=False)
  
 @app.route('/', methods = ["GET", "POST"])
 def home():
@@ -32,8 +30,7 @@ def home():
     if request.method == "POST":
         er = EntityRecognition()
         #res = er.run(request.form['search'])
-        res = es.info() 
-        #results = search_elasticsearch("Person", "John")
+        res = search_elasticsearch(es, "Person", "John")
     if res:
         css_height = "5"
     else:
@@ -56,9 +53,12 @@ def results():
 
 @app.route('/ingest', methods = ["GET", "POST"])
 def ingest():
+    records_added = 0
     ingest = Insert(config_mappings=config_mappings)
-    records = ingest.from_csv("data/people.csv", "person")
-    print(records)
+    records_added += ingest.from_csv("data/people.csv", "person", es)
+    records_added += ingest.from_csv("data/company.csv", "company", es)
+    records_added += ingest.from_csv("data/address.csv", "address", es)
+    return render_template('ingest.html', details = records_added)
 
 # main driver function
 if __name__ == '__main__':

@@ -1,0 +1,1001 @@
+company_id,name,industry,address_id
+1,Suva,Materials,66
+2,Mendoza,Energy,40
+3,Salzburg,Telecommunication Services,69
+4,Dallas,Health Care Equipment and Services,50
+5,Porto-Novo,Diversified Financials,60
+6,Nantes,Media and Entertainment,3
+7,Ibiza,Capital Goods,75
+8,Lhasa,Consumer Services,13
+9,Thiès,Semiconductors and Semiconductor Equipment,27
+10,Apia,Materials,41
+11,Udon Thani,Health Care Equipment and Services,16
+12,Fortaleza,Real Estate,48
+13,Shillong,Diversified Financials,19
+14,Ibadan,Capital Goods,3
+15,Thessaloniki,Insurance,96
+16,Guwahati,Utilities,85
+17,Providence,Banks,16
+18,Montreal,Banks,1
+19,Porto,Utilities,61
+20,Montevideo,Diversified Financials,74
+21,Iquitos,Media and Entertainment,37
+22,Marseille,Capital Goods,84
+23,Shanghai,Household and Personal Products,79
+24,Shenyang,Consumer Durables and Apparel,4
+25,Graz,Household and Personal Products,32
+26,Singapore,Media and Entertainment,83
+27,Manzini,Capital Goods,83
+28,Nanjing,"Pharmaceuticals, Biotechnology, and Life Sciences",14
+29,Lusaka,Real Estate,56
+30,Gibraltar,Energy,54
+31,Maseru,Capital Goods,35
+32,Nakhon Ratchasima,Real Estate,4
+33,Jacksonville,Telecommunication Services,6
+34,Cardiff,Capital Goods,54
+35,Busan,Telecommunication Services,52
+36,Monterrey,Consumer Services,59
+37,Strasbourg,Utilities,72
+38,Sana'a,Media and Entertainment,47
+39,Djibouti (city),Consumer Durables and Apparel,8
+40,Dunedin,Retailing,46
+41,Recife,Insurance,77
+42,Hagåtña,Diversified Financials,45
+43,Bangkok,Retailing,87
+44,Luxor,"Pharmaceuticals, Biotechnology, and Life Sciences",10
+45,Monrovia,Food and Staples Retailing,81
+46,Wonsan,Automobiles and Components,32
+47,Bandung,Banks,66
+48,Prague,Diversified Financials,65
+49,Denpasar,Energy,89
+50,Tampere,Software and Services,88
+51,São José dos Campos,Software and Services,38
+52,Vienna,Consumer Services,24
+53,Thessaloniki,Banks,36
+54,Huế,Banks,53
+55,Cairo,"Pharmaceuticals, Biotechnology, and Life Sciences",70
+56,Phnom Penh,Food and Staples Retailing,81
+57,Yaoundé,Capital Goods,37
+58,Antofagasta,Technology Hardware and Equipment,12
+59,Busan,Retailing,97
+60,Pristina,Consumer Durables and Apparel,77
+61,Lubumbashi,Retailing,82
+62,Yokohama,Consumer Durables and Apparel,46
+63,Timbuktu,Utilities,46
+64,Asmara,Materials,92
+65,Antananarivo,"Pharmaceuticals, Biotechnology, and Life Sciences",91
+66,Dalian,Telecommunication Services,30
+67,Barranquilla,Consumer Durables and Apparel,35
+68,Innsbruck,Capital Goods,63
+69,Calgary,Software and Services,67
+70,Virginia Beach,Technology Hardware and Equipment,31
+71,St. John's,Media and Entertainment,78
+72,Jaipur,Food and Staples Retailing,14
+73,Srinagar,"Food, Beverage, and Tobacco",93
+74,Munich,Telecommunication Services,67
+75,Chengdu,Consumer Services,19
+76,Andorra la Vella,Commercial and Professional Services,34
+77,Douglas,Transportation,73
+78,Hiroshima,Transportation,56
+79,Cotonou,Consumer Services,92
+80,Pyongyang,Diversified Financials,85
+81,Chihuahua,Household and Personal Products,85
+82,Conakry,Semiconductors and Semiconductor Equipment,96
+83,Omdurman,Semiconductors and Semiconductor Equipment,23
+84,Dili,Diversified Financials,10
+85,Maracaibo,Insurance,30
+86,Ankara,Food and Staples Retailing,63
+87,Peshawar,Banks,63
+88,Forked River,Capital Goods,49
+89,Greenwich,Consumer Durables and Apparel,25
+90,Boston,Commercial and Professional Services,80
+91,Wollongong,Consumer Services,65
+92,Dongguan,"Pharmaceuticals, Biotechnology, and Life Sciences",64
+93,Fortaleza,Semiconductors and Semiconductor Equipment,3
+94,Samara,Health Care Equipment and Services,58
+95,Linz,Real Estate,15
+96,Paramaribo,Telecommunication Services,96
+97,Enugu,Insurance,4
+98,Rockhampton,Automobiles and Components,87
+99,Vaduz,Real Estate,82
+100,Nantes,Banks,85
+101,Kabul,Commercial and Professional Services,52
+102,Mashhad,Household and Personal Products,99
+103,Weno,Real Estate,77
+104,Cannes,Commercial and Professional Services,50
+105,Kuala Lumpur,Consumer Durables and Apparel,16
+106,Buenos Aires,Consumer Durables and Apparel,61
+107,Dakar,Telecommunication Services,82
+108,Birkirkara,Technology Hardware and Equipment,78
+109,Lisbon,"Pharmaceuticals, Biotechnology, and Life Sciences",61
+110,Iqaluit,Consumer Services,92
+111,Santo Domingo,Banks,94
+112,Riverside,Automobiles and Components,7
+113,Hat Yai,Materials,10
+114,Brikama,Food and Staples Retailing,42
+115,Sucre,Food and Staples Retailing,66
+116,Gaziantep,Telecommunication Services,42
+117,Hat Yai,Consumer Durables and Apparel,74
+118,Colombo,Consumer Durables and Apparel,38
+119,Ibiza,"Pharmaceuticals, Biotechnology, and Life Sciences",96
+120,Bamako,Materials,61
+121,Bulawayo,Real Estate,81
+122,Jaipur,Insurance,63
+123,Srinagar,Banks,43
+124,Adana,Consumer Durables and Apparel,46
+125,Maseru,"Food, Beverage, and Tobacco",99
+126,Toulouse,Consumer Services,36
+127,Semarang,Health Care Equipment and Services,40
+128,Seoul,Telecommunication Services,94
+129,Hanover,Retailing,53
+130,Bloemfontein,Utilities,12
+131,Hai Phong,Health Care Equipment and Services,34
+132,Maputo,Transportation,57
+133,Jamestown,Technology Hardware and Equipment,34
+134,Linz,"Food, Beverage, and Tobacco",94
+135,Kiev,Consumer Durables and Apparel,95
+136,Zürich,Software and Services,68
+137,Kawasaki,Consumer Durables and Apparel,81
+138,Hobart,Technology Hardware and Equipment,66
+139,Port Said,Software and Services,70
+140,Bangui,Consumer Durables and Apparel,79
+141,Doha,Consumer Durables and Apparel,22
+142,Yekaterinburg,Transportation,68
+143,Geneva,Consumer Durables and Apparel,98
+144,Baghdad,Food and Staples Retailing,27
+145,Suez,Semiconductors and Semiconductor Equipment,63
+146,Copenhagen,Banks,22
+147,Guatemala City,Banks,39
+148,Fairbanks,Banks,89
+149,Rawalpindi,"Food, Beverage, and Tobacco",42
+150,Puebla,Food and Staples Retailing,19
+151,Cartagena,Utilities,25
+152,Yakutsk,Utilities,94
+153,Mwanza,Real Estate,97
+154,Changchun,Food and Staples Retailing,87
+155,Malabo,Telecommunication Services,73
+156,Zanzibar City,Real Estate,22
+157,Jerusalem,Consumer Durables and Apparel,42
+158,Asunción,Automobiles and Components,14
+159,Oslo,Diversified Financials,15
+160,New Delhi,Utilities,9
+161,Taipei,Semiconductors and Semiconductor Equipment,31
+162,Marseille,Transportation,47
+163,Ciudad del Este,Real Estate,11
+164,Anadyr (town),Materials,18
+165,Phoenix,Health Care Equipment and Services,52
+166,Belize City,Technology Hardware and Equipment,3
+167,Phoenix,Materials,66
+168,Hanoi,Semiconductors and Semiconductor Equipment,52
+169,Surabaya,Telecommunication Services,90
+170,Port Louis,Energy,25
+171,El Paso,"Food, Beverage, and Tobacco",77
+172,Cork (city),"Food, Beverage, and Tobacco",76
+173,Bishkek,Household and Personal Products,60
+174,São Paulo,Transportation,88
+175,Cardiff,Telecommunication Services,90
+176,Hyderabad,Technology Hardware and Equipment,81
+177,Louisville,Automobiles and Components,2
+178,Gibraltar,Consumer Services,65
+179,Almaty,Media and Entertainment,45
+180,Kingston,"Food, Beverage, and Tobacco",42
+181,Srinagar,Energy,65
+182,Nice,Diversified Financials,14
+183,Miami,Consumer Services,72
+184,Denpasar,Capital Goods,87
+185,Linz,Household and Personal Products,19
+186,Louisville,Semiconductors and Semiconductor Equipment,48
+187,Horta (Azores),Health Care Equipment and Services,28
+188,Madrid,Energy,72
+189,Rosario,Real Estate,3
+190,Asunción,Utilities,70
+191,Chongjin,Transportation,47
+192,Memphis,Household and Personal Products,59
+193,Odessa,Health Care Equipment and Services,44
+194,Atlanta,"Pharmaceuticals, Biotechnology, and Life Sciences",31
+195,Ankara,Energy,25
+196,Dibrugarh,"Pharmaceuticals, Biotechnology, and Life Sciences",54
+197,Iquitos,Energy,69
+198,Lusaka,Retailing,26
+199,Konya,Insurance,59
+200,Lagos,Food and Staples Retailing,73
+201,Ushuaia,Media and Entertainment,92
+202,Forked River,Retailing,8
+203,Makati City,Energy,97
+204,Düsseldorf,Telecommunication Services,85
+205,Yogyakarta (city),Real Estate,2
+206,Buenos Aires,Automobiles and Components,94
+207,São Paulo,Real Estate,8
+208,Wollongong,Technology Hardware and Equipment,41
+209,Muscat,Consumer Durables and Apparel,31
+210,Omdurman,Materials,69
+211,Warsaw,Food and Staples Retailing,2
+212,Rochester,Banks,70
+213,Faisalabad,Commercial and Professional Services,16
+214,Charlotte Amalie,Capital Goods,17
+215,Mandurah,Consumer Durables and Apparel,26
+216,Tehran,Telecommunication Services,22
+217,Forked River,Automobiles and Components,73
+218,Moscow,"Food, Beverage, and Tobacco",65
+219,Kuala Lumpur,Energy,85
+220,Kyoto,Commercial and Professional Services,68
+221,Oslo,Health Care Equipment and Services,40
+222,Oranjestad,Transportation,9
+223,Puerto Williams,Food and Staples Retailing,62
+224,Baghdad,Consumer Durables and Apparel,76
+225,Melekeok,Diversified Financials,7
+226,Veracruz,Commercial and Professional Services,11
+227,Punta Arenas,Diversified Financials,31
+228,Gibraltar,Food and Staples Retailing,49
+229,Córdoba,Technology Hardware and Equipment,91
+230,Cape Town,Semiconductors and Semiconductor Equipment,44
+231,St. George's,Retailing,60
+232,Calgary,"Pharmaceuticals, Biotechnology, and Life Sciences",51
+233,Manchester,"Food, Beverage, and Tobacco",55
+234,Hamilton,Technology Hardware and Equipment,3
+235,Malabo,Consumer Durables and Apparel,59
+236,Da Nang,Media and Entertainment,8
+237,Baku,Insurance,90
+238,Gaziantep,Media and Entertainment,11
+239,Dededo,Household and Personal Products,92
+240,San Fernando,Insurance,29
+241,Chiang Mai,Software and Services,49
+242,Minneapolis,Diversified Financials,30
+243,Munich,Materials,82
+244,Chittagong,Household and Personal Products,32
+245,Melekeok,Insurance,18
+246,Dresden,Capital Goods,86
+247,Hyderabad,Diversified Financials,18
+248,Murmansk,Real Estate,7
+249,Oklahoma City,Consumer Services,62
+250,Graz,Media and Entertainment,64
+251,Kunming,Media and Entertainment,15
+252,Yakutsk,Capital Goods,12
+253,Canberra,Food and Staples Retailing,39
+254,San Carlos de Bariloche,Diversified Financials,7
+255,Vancouver,Technology Hardware and Equipment,91
+256,Sabha,Diversified Financials,34
+257,Nassau,Consumer Services,36
+258,Milan,"Pharmaceuticals, Biotechnology, and Life Sciences",29
+259,Medan,Retailing,83
+260,Dibrugarh,Software and Services,17
+261,Tehran,Capital Goods,96
+262,Libreville,Consumer Services,4
+263,Chongjin,Software and Services,43
+264,Saskatoon,Materials,96
+265,Oklahoma City,Retailing,64
+266,Chengdu,Retailing,62
+267,Brasília,Food and Staples Retailing,32
+268,Singapore,Commercial and Professional Services,21
+269,Majuro,Software and Services,30
+270,Buenos Aires,Capital Goods,49
+271,Praia,Transportation,52
+272,Mersin,Banks,34
+273,Taipei,Diversified Financials,14
+274,Tokyo,Energy,21
+275,Lubumbashi,Retailing,21
+276,Davao City,Diversified Financials,49
+277,Jamestown,Banks,4
+278,Malé,Insurance,36
+279,Denver,Media and Entertainment,74
+280,Islamabad,Insurance,98
+281,Nakhon Ratchasima,Retailing,3
+282,St. John's,Insurance,60
+283,Ljubljana,Food and Staples Retailing,41
+284,Chicago,Utilities,31
+285,Vladivostok,Banks,43
+286,Road Town,Energy,98
+287,Hobart,Diversified Financials,12
+288,São José dos Campos,Household and Personal Products,6
+289,Horta (Azores),"Food, Beverage, and Tobacco",91
+290,Bursa,Materials,36
+291,Belfast,Telecommunication Services,68
+292,Harbin,Consumer Services,61
+293,Vatican City,Commercial and Professional Services,69
+294,Juneau,"Food, Beverage, and Tobacco",15
+295,Stockholm,Consumer Services,6
+296,Mbabane,Telecommunication Services,4
+297,Moroni,Automobiles and Components,35
+298,Anchorage,Diversified Financials,93
+299,Brussels,"Pharmaceuticals, Biotechnology, and Life Sciences",27
+300,Honiara,Food and Staples Retailing,23
+301,Puebla,Utilities,55
+302,Tashkent,Health Care Equipment and Services,60
+303,Wichita,Technology Hardware and Equipment,55
+304,Ankara,Commercial and Professional Services,30
+305,Wichita,Capital Goods,97
+306,Chaguanas,Materials,68
+307,Willemstad,Software and Services,7
+308,Tskhinvali,Real Estate,96
+309,Port Hedland,Food and Staples Retailing,60
+310,Chicago,Consumer Services,51
+311,Cockburn Town,Capital Goods,38
+312,Magadan,Materials,24
+313,Kuala Lumpur,Commercial and Professional Services,98
+314,Sydney,Consumer Durables and Apparel,6
+315,Yokohama,Media and Entertainment,100
+316,Cape Town,Media and Entertainment,19
+317,Avarua,Diversified Financials,83
+318,Vladivostok,Consumer Durables and Apparel,3
+319,Andorra la Vella,Transportation,50
+320,Kyoto,Diversified Financials,48
+321,Cayenne,"Food, Beverage, and Tobacco",64
+322,Pristina,Consumer Durables and Apparel,26
+323,Nakhon Ratchasima,Diversified Financials,2
+324,Bloemfontein,Transportation,13
+325,St. Louis,Software and Services,34
+326,Columbus,Retailing,19
+327,Multan,Real Estate,79
+328,Invercargill,Media and Entertainment,55
+329,Tbilisi,Transportation,38
+330,Luxembourg (city),"Pharmaceuticals, Biotechnology, and Life Sciences",87
+331,Yaoundé,Real Estate,86
+332,Alexandria,Energy,60
+333,Suez,Software and Services,6
+334,Francistown,"Food, Beverage, and Tobacco",37
+335,Cologne,Household and Personal Products,17
+336,Arequipa,Consumer Durables and Apparel,86
+337,Port Blair,"Pharmaceuticals, Biotechnology, and Life Sciences",92
+338,Yamoussoukro,Semiconductors and Semiconductor Equipment,4
+339,Belgrade,Automobiles and Components,37
+340,Lomé,Retailing,51
+341,Toronto,Diversified Financials,49
+342,Macapá,Real Estate,30
+343,Yangon,Media and Entertainment,10
+344,Valencia,Media and Entertainment,72
+345,Santa Cruz de Tenerife,Software and Services,82
+346,Thimphu,Real Estate,87
+347,Dushanbe,Technology Hardware and Equipment,34
+348,Tabriz,Technology Hardware and Equipment,19
+349,Chengdu,Materials,51
+350,Bratsk,Utilities,95
+351,Labasa,Semiconductors and Semiconductor Equipment,99
+352,Port-au-Prince,Capital Goods,99
+353,Palikir,Real Estate,33
+354,Rio Branco,Consumer Durables and Apparel,93
+355,Vladivostok,Retailing,10
+356,Amritsar,Commercial and Professional Services,97
+357,Magadan,Retailing,47
+358,Charlotte,Banks,12
+359,Bratislava,Health Care Equipment and Services,46
+360,Shanghai,Telecommunication Services,20
+361,Seoul,Software and Services,21
+362,Odessa,Capital Goods,96
+363,Cayenne,Insurance,84
+364,Oranjestad,Technology Hardware and Equipment,11
+365,Mexico City,Semiconductors and Semiconductor Equipment,89
+366,Surabaya,Media and Entertainment,97
+367,Barranquilla,Materials,37
+368,Tórshavn,Diversified Financials,85
+369,Mexico City,Technology Hardware and Equipment,98
+370,Kandy,Utilities,94
+371,Malmö,Health Care Equipment and Services,42
+372,Mata-Utu,Software and Services,97
+373,Pekanbaru,Automobiles and Components,69
+374,Adak,Transportation,24
+375,Kigali,Semiconductors and Semiconductor Equipment,47
+376,Timbuktu,Health Care Equipment and Services,27
+377,Kharkiv,Energy,30
+378,Concepción,Insurance,35
+379,Tampa,Consumer Services,100
+380,Bamako,"Food, Beverage, and Tobacco",38
+381,Harare,Health Care Equipment and Services,3
+382,Saint-Denis,Consumer Services,57
+383,Brikama,Capital Goods,52
+384,Turin,Telecommunication Services,32
+385,Nouméa,Banks,37
+386,Pelotas,Automobiles and Components,77
+387,Huế,Real Estate,42
+388,Padang,Capital Goods,58
+389,Frankfurt,Consumer Durables and Apparel,25
+390,Dededo,Commercial and Professional Services,11
+391,Cartagena,"Pharmaceuticals, Biotechnology, and Life Sciences",40
+392,Nashville,Health Care Equipment and Services,24
+393,Monterrey,Insurance,60
+394,Blantyre,"Food, Beverage, and Tobacco",58
+395,Oslo,Food and Staples Retailing,57
+396,Veracruz,Software and Services,68
+397,Amsterdam,Commercial and Professional Services,49
+398,Riverside,"Pharmaceuticals, Biotechnology, and Life Sciences",27
+399,Bogor,Retailing,19
+400,Harbin,Materials,79
+401,Cape Town,Food and Staples Retailing,50
+402,Guayaquil,Capital Goods,93
+403,Seoul,Capital Goods,58
+404,Lima,"Food, Beverage, and Tobacco",39
+405,Vienna,Materials,31
+406,Prague,Automobiles and Components,99
+407,Ciudad del Este,Software and Services,72
+408,Edinburgh,Real Estate,28
+409,Dallas,Food and Staples Retailing,94
+410,Seoul,"Food, Beverage, and Tobacco",10
+411,Concepción,Insurance,30
+412,Virginia Beach,Consumer Durables and Apparel,95
+413,Basra,Semiconductors and Semiconductor Equipment,89
+414,Sri Jayawardenapura-Kotte,Telecommunication Services,64
+415,Port of Spain,Insurance,54
+416,Ahmedabad,Consumer Services,64
+417,Stanley,Retailing,78
+418,Innsbruck,Commercial and Professional Services,49
+419,Tiraspol,"Pharmaceuticals, Biotechnology, and Life Sciences",28
+420,Townsville,"Pharmaceuticals, Biotechnology, and Life Sciences",49
+421,Port Hedland,Food and Staples Retailing,61
+422,Charlotte,"Food, Beverage, and Tobacco",34
+423,Malacca Town,Health Care Equipment and Services,31
+424,Magadan,Materials,24
+425,Valparaíso,Energy,77
+426,Dunedin,Telecommunication Services,68
+427,Maceió,Household and Personal Products,60
+428,Dili,Capital Goods,71
+429,Split (city),Consumer Services,30
+430,Jaipur,"Food, Beverage, and Tobacco",18
+431,Dubai,Capital Goods,54
+432,Oklahoma City,Food and Staples Retailing,15
+433,Angra do Heroísmo,Health Care Equipment and Services,51
+434,Fukuoka,Utilities,15
+435,Campinas,Materials,49
+436,Luanda,Semiconductors and Semiconductor Equipment,27
+437,Tehran,Transportation,79
+438,Nashville,Utilities,2
+439,Quetzaltenango,Food and Staples Retailing,50
+440,Mecca,Commercial and Professional Services,42
+441,Antwerp,Media and Entertainment,76
+442,Graz,Health Care Equipment and Services,34
+443,Davao City,Insurance,12
+444,Brikama,Commercial and Professional Services,36
+445,Salzburg,Energy,67
+446,Valdivia,Telecommunication Services,55
+447,Phnom Penh,Consumer Services,11
+448,Kobe,Food and Staples Retailing,19
+449,Port-au-Prince,Materials,55
+450,Malabo,Real Estate,11
+451,Rotterdam,Insurance,45
+452,Yamoussoukro,Consumer Durables and Apparel,20
+453,Algiers,Household and Personal Products,60
+454,Timbuktu,"Food, Beverage, and Tobacco",74
+455,Huế,Household and Personal Products,11
+456,Cork (city),Materials,41
+457,Abu Dhabi,Capital Goods,19
+458,Ibadan,"Pharmaceuticals, Biotechnology, and Life Sciences",43
+459,New York City,Household and Personal Products,13
+460,Phnom Penh,Automobiles and Components,76
+461,Sana'a,Media and Entertainment,77
+462,Port of Spain,Technology Hardware and Equipment,40
+463,Hargeisa,Diversified Financials,64
+464,Milwaukee,Consumer Durables and Apparel,47
+465,Tallinn,Banks,19
+466,Quezon City,Household and Personal Products,7
+467,Barcelona,Food and Staples Retailing,42
+468,Bilbao,Energy,29
+469,Zagreb,Capital Goods,97
+470,Porto,Capital Goods,18
+471,Ankara,Transportation,100
+472,Zhengzhou,Automobiles and Components,79
+473,Port Blair,Capital Goods,7
+474,Alofi,Semiconductors and Semiconductor Equipment,25
+475,Leipzig,"Pharmaceuticals, Biotechnology, and Life Sciences",87
+476,Harare,Semiconductors and Semiconductor Equipment,59
+477,Gdańsk,Media and Entertainment,43
+478,Rockhampton,Telecommunication Services,87
+479,San Juan,Technology Hardware and Equipment,73
+480,Yokohama,Automobiles and Components,29
+481,Bratislava,Diversified Financials,63
+482,Dar es Salaam,Materials,74
+483,Johannesburg,Insurance,72
+484,Ilhéus,"Food, Beverage, and Tobacco",3
+485,Monrovia,"Pharmaceuticals, Biotechnology, and Life Sciences",52
+486,Prague,"Pharmaceuticals, Biotechnology, and Life Sciences",4
+487,Budapest,Media and Entertainment,51
+488,Abidjan,Transportation,72
+489,Madrid,Retailing,45
+490,Horta (Azores),Transportation,84
+491,Ottawa,"Pharmaceuticals, Biotechnology, and Life Sciences",63
+492,Baltimore,"Food, Beverage, and Tobacco",99
+493,Longyearbyen,Semiconductors and Semiconductor Equipment,63
+494,Honolulu,Media and Entertainment,27
+495,Tagbilaran,Retailing,68
+496,Surat,Capital Goods,57
+497,Algiers,Utilities,98
+498,South Tarawa,Capital Goods,52
+499,Praia,Retailing,41
+500,Medina,Consumer Durables and Apparel,48
+501,Gothenburg,Banks,80
+502,Adamstown,Consumer Durables and Apparel,18
+503,Gaziantep,Technology Hardware and Equipment,13
+504,Frankfurt,Banks,12
+505,Tórshavn,Retailing,81
+506,San Juan,Media and Entertainment,68
+507,Vienna,Energy,23
+508,Charlotte Amalie,Retailing,89
+509,Shigatse,Health Care Equipment and Services,10
+510,Athens,Capital Goods,84
+511,Ambon,Insurance,74
+512,Semarang,"Pharmaceuticals, Biotechnology, and Life Sciences",1
+513,Davao City,Consumer Durables and Apparel,88
+514,Nashville,Technology Hardware and Equipment,49
+515,Tel Aviv,Automobiles and Components,87
+516,Apia,"Pharmaceuticals, Biotechnology, and Life Sciences",22
+517,Jeddah,Utilities,94
+518,Ciudad del Este,Semiconductors and Semiconductor Equipment,81
+519,Malmö,Consumer Durables and Apparel,63
+520,Koror,Diversified Financials,1
+521,New York City,Telecommunication Services,65
+522,Samara,Health Care Equipment and Services,76
+523,Avarua,Real Estate,38
+524,Birmingham,"Food, Beverage, and Tobacco",20
+525,Ciudad del Este,Consumer Services,52
+526,Nassau,Food and Staples Retailing,17
+527,Oklahoma City,Consumer Services,46
+528,Amsterdam,Food and Staples Retailing,70
+529,Seoul,Transportation,20
+530,Nairobi,Materials,77
+531,Bogor,Semiconductors and Semiconductor Equipment,2
+532,Saipan,Transportation,65
+533,Gaborone,Retailing,5
+534,Saint Petersburg,Utilities,80
+535,The Valley,Food and Staples Retailing,44
+536,Invercargill,"Food, Beverage, and Tobacco",86
+537,Saint John,Consumer Services,16
+538,Port Moresby,Utilities,7
+539,Cape Town,Real Estate,51
+540,Stuttgart,Food and Staples Retailing,87
+541,Iloilo City,Diversified Financials,98
+542,Winnipeg,Semiconductors and Semiconductor Equipment,95
+543,Multan,Utilities,70
+544,Asmara,Technology Hardware and Equipment,7
+545,Tagbilaran,"Food, Beverage, and Tobacco",23
+546,Nuuk,Retailing,42
+547,Malacca Town,Telecommunication Services,1
+548,Libreville,"Food, Beverage, and Tobacco",80
+549,Quebec City,"Food, Beverage, and Tobacco",60
+550,Albuquerque,Telecommunication Services,68
+551,Zanzibar City,"Pharmaceuticals, Biotechnology, and Life Sciences",71
+552,Hilo,Semiconductors and Semiconductor Equipment,27
+553,Banda Aceh,Commercial and Professional Services,58
+554,Minsk,Diversified Financials,1
+555,Santo Domingo,Automobiles and Components,30
+556,Budapest,Telecommunication Services,59
+557,Palikir,Consumer Durables and Apparel,52
+558,Anchorage,Banks,30
+559,Kabul,Consumer Services,3
+560,Hat Yai,Health Care Equipment and Services,34
+561,Honiara,"Food, Beverage, and Tobacco",9
+562,Andorra la Vella,Real Estate,51
+563,Dallas,Diversified Financials,41
+564,Punta Arenas,Food and Staples Retailing,90
+565,Amsterdam,Capital Goods,24
+566,Honolulu,Household and Personal Products,18
+567,Gangtok,Telecommunication Services,88
+568,Austin,Food and Staples Retailing,33
+569,Bujumbura,Banks,51
+570,Koulikoro,Diversified Financials,87
+571,Huế,Capital Goods,53
+572,Tallinn,Consumer Durables and Apparel,63
+573,Blantyre,Diversified Financials,58
+574,Adelaide,Health Care Equipment and Services,15
+575,City of San Marino,Automobiles and Components,89
+576,Islamabad,Energy,48
+577,Raleigh,Diversified Financials,82
+578,Semarang,Transportation,41
+579,Andorra la Vella,Materials,62
+580,Johor Bahru,Automobiles and Components,56
+581,Bangkok,Utilities,81
+582,Perth,Technology Hardware and Equipment,6
+583,Paramaribo,Health Care Equipment and Services,70
+584,Avarua,Insurance,48
+585,Puerto Williams,Banks,66
+586,Murmansk,"Food, Beverage, and Tobacco",17
+587,Ottawa,Automobiles and Components,38
+588,Tucson,Insurance,20
+589,Tiraspol,Materials,45
+590,Libreville,Automobiles and Components,34
+591,Havana,Telecommunication Services,26
+592,Strasbourg,Consumer Durables and Apparel,64
+593,Yangon,Food and Staples Retailing,69
+594,Riga,Technology Hardware and Equipment,23
+595,São José dos Campos,Real Estate,44
+596,Iqaluit,Household and Personal Products,62
+597,Sapporo,Insurance,90
+598,Faisalabad,Consumer Services,42
+599,Taiyuan,Insurance,79
+600,Buffalo,Consumer Services,20
+601,Makati City,Transportation,15
+602,Nairobi,Retailing,9
+603,Samara,Retailing,42
+604,Astana,Materials,66
+605,Hanover,Commercial and Professional Services,72
+606,Thiès,Consumer Services,74
+607,Bamako,Consumer Services,9
+608,Kobe,Utilities,81
+609,Belfast,Commercial and Professional Services,61
+610,Mérida,Insurance,26
+611,Port Said,Semiconductors and Semiconductor Equipment,66
+612,Weno,Retailing,54
+613,Ibadan,Banks,1
+614,Santo Domingo,Food and Staples Retailing,60
+615,Seville,Real Estate,70
+616,Paramaribo,Banks,21
+617,Brikama,Media and Entertainment,4
+618,Samara,Capital Goods,66
+619,Jeddah,Food and Staples Retailing,68
+620,Tampa,Diversified Financials,67
+621,Chicago,Insurance,83
+622,Makati City,Media and Entertainment,30
+623,Toronto,Semiconductors and Semiconductor Equipment,86
+624,Cardiff,Commercial and Professional Services,48
+625,Cairo,Real Estate,19
+626,Freetown,Telecommunication Services,33
+627,Jerusalem,Utilities,88
+628,Salzburg,Banks,59
+629,Port Vila,Household and Personal Products,67
+630,Francistown,Utilities,63
+631,Asmara,Insurance,33
+632,Tunis,"Pharmaceuticals, Biotechnology, and Life Sciences",83
+633,Kathmandu,Transportation,86
+634,Surabaya,Transportation,96
+635,Kharkiv,Telecommunication Services,80
+636,New York City,Semiconductors and Semiconductor Equipment,61
+637,New York City,Household and Personal Products,62
+638,Curitiba,Household and Personal Products,31
+639,Rome,Commercial and Professional Services,58
+640,Rosario,Household and Personal Products,97
+641,Quezon City,Utilities,9
+642,Lyon,Energy,38
+643,Alexandria,Household and Personal Products,49
+644,Stanley,Media and Entertainment,41
+645,Luxembourg (city),Transportation,2
+646,Kuala Lumpur,Real Estate,14
+647,Greenwich,Commercial and Professional Services,62
+648,Antananarivo,Energy,7
+649,Dammam,Transportation,40
+650,Rome,Capital Goods,92
+651,La Serena,Telecommunication Services,4
+652,Vitória,Software and Services,30
+653,Murmansk,Transportation,6
+654,Hyderabad,Insurance,36
+655,South Tarawa,Diversified Financials,28
+656,Nukuʻalofa,Software and Services,27
+657,Buenos Aires,Transportation,86
+658,Bern,"Pharmaceuticals, Biotechnology, and Life Sciences",24
+659,Papeete,Telecommunication Services,55
+660,Belém,Energy,34
+661,Charlotte,Insurance,95
+662,Jaipur,Banks,94
+663,Marrakech,Telecommunication Services,54
+664,Salt Lake City,Telecommunication Services,5
+665,Cape Town,Retailing,66
+666,Beirut,Software and Services,65
+667,Colombo,Media and Entertainment,5
+668,Suez,Media and Entertainment,83
+669,Khartoum,Utilities,57
+670,Aberdeen,"Food, Beverage, and Tobacco",43
+671,Sacramento,Commercial and Professional Services,43
+672,Casablanca,"Food, Beverage, and Tobacco",39
+673,Ahmedabad,Automobiles and Components,73
+674,Dhaka,Telecommunication Services,15
+675,Monterrey,Real Estate,64
+676,Bandar Seri Begawan,Retailing,77
+677,Davao City,Energy,56
+678,Las Vegas,Materials,55
+679,Valparaíso,Retailing,63
+680,Beirut,Technology Hardware and Equipment,21
+681,Guadalajara,Health Care Equipment and Services,28
+682,Chaguanas,Software and Services,6
+683,Changchun,Consumer Services,3
+684,Salt Lake City,Software and Services,53
+685,Bissau,Retailing,21
+686,Zanzibar City,Transportation,6
+687,Harbin,Retailing,85
+688,Rio de Janeiro,Software and Services,58
+689,Denver,Transportation,48
+690,Providence,Retailing,36
+691,Chongqing,Media and Entertainment,64
+692,Antananarivo,Utilities,13
+693,Miami,Media and Entertainment,8
+694,Jacksonville,Technology Hardware and Equipment,51
+695,São Paulo,Diversified Financials,98
+696,Seattle,Household and Personal Products,23
+697,Saint-Pierre,Food and Staples Retailing,81
+698,Iquique,"Food, Beverage, and Tobacco",27
+699,Dili,Diversified Financials,79
+700,Naypyidaw,Insurance,55
+701,Lisbon,Technology Hardware and Equipment,8
+702,Hangzhou,Capital Goods,11
+703,Thiès,Consumer Durables and Apparel,20
+704,Curitiba,Health Care Equipment and Services,85
+705,Minneapolis,Real Estate,48
+706,Vaduz,Commercial and Professional Services,13
+707,Praia,Diversified Financials,98
+708,Athens,Health Care Equipment and Services,70
+709,Adana,Retailing,12
+710,Toulouse,Commercial and Professional Services,36
+711,Yaren District,Transportation,67
+712,Qingdao,Software and Services,10
+713,Yekaterinburg,Semiconductors and Semiconductor Equipment,79
+714,Amritsar,Retailing,70
+715,Brasília,Materials,13
+716,Kawasaki,Diversified Financials,77
+717,Las Palmas de Gran Canaria,Insurance,92
+718,Puebla,Commercial and Professional Services,79
+719,Harare,Materials,61
+720,Auckland,Retailing,52
+721,Fairbanks,Consumer Durables and Apparel,75
+722,Birmingham,Commercial and Professional Services,58
+723,Asunción,Software and Services,51
+724,Serekunda,Capital Goods,8
+725,Dakar,"Pharmaceuticals, Biotechnology, and Life Sciences",83
+726,Bridgetown,Energy,26
+727,Omdurman,Real Estate,48
+728,Chongqing,Software and Services,41
+729,Stuttgart,Technology Hardware and Equipment,97
+730,Rochester,Software and Services,70
+731,Bangui,Food and Staples Retailing,96
+732,Antofagasta,Software and Services,17
+733,Niamey,Diversified Financials,12
+734,Wonsan,Semiconductors and Semiconductor Equipment,6
+735,Asmara,Technology Hardware and Equipment,95
+736,Wuhan,Transportation,91
+737,Valdivia,Energy,37
+738,Adana,Consumer Services,39
+739,Omsk,Capital Goods,47
+740,Longyearbyen,Materials,30
+741,Perth,Capital Goods,70
+742,Vilnius,Banks,74
+743,Amman,Telecommunication Services,95
+744,Nice,Automobiles and Components,44
+745,Adamstown,Banks,65
+746,Kanpur,Household and Personal Products,30
+747,Berlin,Insurance,94
+748,Kabul,Real Estate,25
+749,Bujumbura,Energy,87
+750,Mamoudzou,Transportation,44
+751,Louisville,Health Care Equipment and Services,77
+752,Charlottetown,Utilities,3
+753,Dibrugarh,Semiconductors and Semiconductor Equipment,84
+754,Lima,Technology Hardware and Equipment,35
+755,Agartala,Transportation,11
+756,Bratsk,Semiconductors and Semiconductor Equipment,13
+757,South Tarawa,Transportation,74
+758,Malé,Transportation,35
+759,Tripoli,Software and Services,47
+760,Austin,"Pharmaceuticals, Biotechnology, and Life Sciences",20
+761,Antananarivo,Diversified Financials,6
+762,Fukuoka,Technology Hardware and Equipment,41
+763,Alofi,Utilities,85
+764,Douglas,"Food, Beverage, and Tobacco",27
+765,Pretoria,Capital Goods,6
+766,Dededo,Technology Hardware and Equipment,51
+767,Iquitos,Media and Entertainment,32
+768,Vilnius,Semiconductors and Semiconductor Equipment,82
+769,Gaza,Materials,75
+770,George Town,Utilities,62
+771,Nuuk,Software and Services,93
+772,Bissau,Energy,10
+773,Odessa,Materials,40
+774,Avarua,Materials,40
+775,İzmir,Capital Goods,42
+776,Ottawa,"Food, Beverage, and Tobacco",48
+777,Tegucigalpa,Software and Services,2
+778,Baghdad,"Food, Beverage, and Tobacco",81
+779,São Paulo,Health Care Equipment and Services,94
+780,Chiang Mai,Software and Services,61
+781,Baghdad,Transportation,87
+782,Thimphu,"Food, Beverage, and Tobacco",62
+783,Santiago de Cuba,Utilities,15
+784,Veracruz,Consumer Durables and Apparel,93
+785,Jinan,Household and Personal Products,16
+786,Stockholm,"Food, Beverage, and Tobacco",32
+787,Bangui,Media and Entertainment,81
+788,Salzburg,Media and Entertainment,31
+789,Okinawa,Media and Entertainment,40
+790,Dublin,Transportation,97
+791,Dongguan,"Food, Beverage, and Tobacco",7
+792,Nantes,Semiconductors and Semiconductor Equipment,9
+793,Cockburn Town,Diversified Financials,28
+794,Valparaíso,Household and Personal Products,51
+795,Belize City,Health Care Equipment and Services,2
+796,Anadyr (town),Real Estate,23
+797,Saskatoon,Automobiles and Components,38
+798,Innsbruck,Banks,67
+799,Gibraltar,Retailing,30
+800,Nagoya,Retailing,2
+801,Amsterdam,Capital Goods,33
+802,Colombo,Health Care Equipment and Services,71
+803,Pelotas,Energy,13
+804,Arequipa,Energy,84
+805,Cardiff,Energy,14
+806,Frankfurt,Capital Goods,74
+807,Bratsk,Diversified Financials,62
+808,Yamoussoukro,Food and Staples Retailing,86
+809,Maputo,Energy,2
+810,Tel Aviv,Capital Goods,46
+811,Pontianak,Transportation,11
+812,Forked River,Semiconductors and Semiconductor Equipment,20
+813,Ndola,Technology Hardware and Equipment,9
+814,Karachi,Food and Staples Retailing,50
+815,Ürümqi,Semiconductors and Semiconductor Equipment,56
+816,Pittsburgh,Real Estate,12
+817,The Valley,Household and Personal Products,1
+818,Bloemfontein,Insurance,46
+819,San Juan,Insurance,69
+820,New York City,Transportation,83
+821,Saipan,Consumer Durables and Apparel,68
+822,Dubai,Commercial and Professional Services,53
+823,Atlanta,Diversified Financials,85
+824,Mbabane,Consumer Services,58
+825,Bangkok,Transportation,87
+826,Barcelona,Semiconductors and Semiconductor Equipment,60
+827,Majuro,Technology Hardware and Equipment,77
+828,Namangan,"Pharmaceuticals, Biotechnology, and Life Sciences",6
+829,Phoenix,"Food, Beverage, and Tobacco",24
+830,Tokyo,Automobiles and Components,67
+831,Nanjing,Capital Goods,6
+832,Cusco,Real Estate,85
+833,Melekeok,Telecommunication Services,94
+834,Labasa,Media and Entertainment,81
+835,Puebla,Consumer Services,38
+836,Louisville,Real Estate,73
+837,Norilsk,Media and Entertainment,82
+838,Ambon,Commercial and Professional Services,77
+839,San Francisco,Health Care Equipment and Services,86
+840,Washington,Energy,62
+841,London,Technology Hardware and Equipment,2
+842,Davao City,Health Care Equipment and Services,91
+843,Namangan,Food and Staples Retailing,25
+844,San Fernando,Consumer Durables and Apparel,35
+845,Odessa,Media and Entertainment,13
+846,Regina,Retailing,58
+847,Dalian,Health Care Equipment and Services,78
+848,Valencia,Semiconductors and Semiconductor Equipment,74
+849,New York City,Health Care Equipment and Services,6
+850,Banjul,Household and Personal Products,61
+851,Dhaka,Insurance,96
+852,Blantyre,Software and Services,8
+853,Belfast,Technology Hardware and Equipment,77
+854,Chiang Mai,Automobiles and Components,49
+855,Zapopan,Semiconductors and Semiconductor Equipment,22
+856,Hiroshima,Health Care Equipment and Services,71
+857,Majuro,Automobiles and Components,55
+858,Yamoussoukro,"Pharmaceuticals, Biotechnology, and Life Sciences",71
+859,Tallinn,Real Estate,94
+860,Dar es Salaam,"Pharmaceuticals, Biotechnology, and Life Sciences",59
+861,Brisbane,Real Estate,60
+862,Road Town,Insurance,3
+863,Chengdu,Health Care Equipment and Services,75
+864,Ho Chi Minh City,Consumer Durables and Apparel,43
+865,Kathmandu,Energy,80
+866,Calgary,Food and Staples Retailing,26
+867,Douala,Technology Hardware and Equipment,93
+868,Shenyang,Media and Entertainment,71
+869,Dar es Salaam,Technology Hardware and Equipment,77
+870,Cork (city),Capital Goods,82
+871,Odessa,"Food, Beverage, and Tobacco",2
+872,Antwerp,Automobiles and Components,100
+873,Hilo,Food and Staples Retailing,49
+874,Ouagadougou,Automobiles and Components,62
+875,Changchun,Automobiles and Components,51
+876,Luxembourg (city),Food and Staples Retailing,15
+877,Banda Aceh,"Food, Beverage, and Tobacco",72
+878,Aberdeen,Diversified Financials,50
+879,Shigatse,Transportation,98
+880,Jersey City,Insurance,91
+881,Lusaka,"Pharmaceuticals, Biotechnology, and Life Sciences",11
+882,Nakhon Ratchasima,Capital Goods,24
+883,Djibouti (city),Food and Staples Retailing,54
+884,George Town,Consumer Services,88
+885,Nice,Energy,64
+886,Thiès,Software and Services,82
+887,Omdurman,Retailing,58
+888,Hiroshima,Real Estate,16
+889,Cuiabá,Energy,26
+890,Stockholm,Retailing,29
+891,Winnipeg,Food and Staples Retailing,43
+892,Durban,Real Estate,78
+893,Kota Kinabalu,Diversified Financials,28
+894,Manila,Consumer Durables and Apparel,19
+895,Charlotte,Semiconductors and Semiconductor Equipment,40
+896,Iloilo City,Diversified Financials,79
+897,Dushanbe,Retailing,92
+898,Nuuk,Household and Personal Products,92
+899,Baltimore,Commercial and Professional Services,33
+900,Maracaibo,"Food, Beverage, and Tobacco",88
+901,São José dos Campos,Household and Personal Products,89
+902,Moroni,"Food, Beverage, and Tobacco",29
+903,Handan,Banks,19
+904,Bahía Blanca,Consumer Durables and Apparel,95
+905,Toronto,Energy,90
+906,Lomé,Materials,99
+907,Tucson,Utilities,83
+908,Chiang Mai,Consumer Durables and Apparel,43
+909,Porto Alegre,Transportation,68
+910,Pontianak,Energy,64
+911,Luanda,Real Estate,79
+912,Murmansk,Food and Staples Retailing,58
+913,Espoo,Retailing,91
+914,Porto Alegre,Real Estate,66
+915,Athens,Telecommunication Services,85
+916,Tokyo,Consumer Durables and Apparel,41
+917,Recife,Materials,37
+918,San Carlos de Bariloche,Utilities,15
+919,Gothenburg,Utilities,9
+920,George Town,Telecommunication Services,73
+921,Ponta Delgada,Technology Hardware and Equipment,96
+922,Padang,Food and Staples Retailing,32
+923,Houston,Capital Goods,29
+924,Riga,Telecommunication Services,80
+925,Casablanca,"Pharmaceuticals, Biotechnology, and Life Sciences",32
+926,Gold Coast,Semiconductors and Semiconductor Equipment,92
+927,Tampa,Telecommunication Services,79
+928,Cleveland,Retailing,1
+929,Yaren District,Technology Hardware and Equipment,2
+930,Khartoum,Retailing,8
+931,Tartu,"Food, Beverage, and Tobacco",66
+932,Hanoi,Health Care Equipment and Services,100
+933,Baghdad,Banks,27
+934,Monterrey,Transportation,38
+935,Durban,Household and Personal Products,29
+936,Anadyr (town),Household and Personal Products,66
+937,Yokohama,Consumer Services,6
+938,Mbabane,"Pharmaceuticals, Biotechnology, and Life Sciences",72
+939,Milan,"Pharmaceuticals, Biotechnology, and Life Sciences",85
+940,Podgorica,Semiconductors and Semiconductor Equipment,3
+941,Belfast,Media and Entertainment,67
+942,Asunción,Materials,21
+943,Hagåtña,Health Care Equipment and Services,27
+944,Ashgabat,Consumer Services,13
+945,Basse-Terre,Automobiles and Components,73
+946,Vientiane,Real Estate,97
+947,Kaliningrad,Telecommunication Services,66
+948,Geneva,Media and Entertainment,29
+949,Strasbourg,Transportation,3
+950,Lanzhou,Food and Staples Retailing,87
+951,South Tarawa,"Pharmaceuticals, Biotechnology, and Life Sciences",20
+952,Chittagong,Utilities,23
+953,Madrid,Transportation,30
+954,Montevideo,Semiconductors and Semiconductor Equipment,19
+955,Adak,"Pharmaceuticals, Biotechnology, and Life Sciences",89
+956,Iquique,Diversified Financials,14
+957,Yamoussoukro,"Food, Beverage, and Tobacco",70
+958,Kigali,"Pharmaceuticals, Biotechnology, and Life Sciences",84
+959,Mandurah,Food and Staples Retailing,24
+960,Almaty,Retailing,73
+961,Barcelona,Retailing,28
+962,Yerevan,Insurance,36
+963,Peshawar,Materials,15
+964,Hangzhou,Consumer Durables and Apparel,71
+965,Chongqing,Household and Personal Products,67
+966,Marseille,Real Estate,40
+967,Ouagadougou,"Pharmaceuticals, Biotechnology, and Life Sciences",48
+968,Anchorage,Commercial and Professional Services,28
+969,City of San Marino,Semiconductors and Semiconductor Equipment,90
+970,London,Technology Hardware and Equipment,96
+971,Kunming,Software and Services,60
+972,Porto Velho,Capital Goods,12
+973,Yaoundé,Transportation,53
+974,Asunción,Materials,3
+975,Porto,"Pharmaceuticals, Biotechnology, and Life Sciences",13
+976,Kharkiv,Household and Personal Products,23
+977,Srinagar,Telecommunication Services,31
+978,Edinburgh,Diversified Financials,46
+979,Amritsar,Capital Goods,14
+980,Shanghai,Transportation,19
+981,Buenos Aires,Commercial and Professional Services,9
+982,Gaborone,Health Care Equipment and Services,65
+983,Thessaloniki,Automobiles and Components,39
+984,Guwahati,Household and Personal Products,68
+985,Naples,"Food, Beverage, and Tobacco",59
+986,Helsinki,Household and Personal Products,76
+987,Atlanta,"Food, Beverage, and Tobacco",69
+988,Austin,Consumer Services,80
+989,Sabha,"Pharmaceuticals, Biotechnology, and Life Sciences",50
+990,Auckland,Capital Goods,100
+991,Palikir,Technology Hardware and Equipment,99
+992,Juneau,Diversified Financials,6
+993,Valparaíso,"Pharmaceuticals, Biotechnology, and Life Sciences",70
+994,Vientiane,"Food, Beverage, and Tobacco",1
+995,Kinshasa,Real Estate,65
+996,Monrovia,Food and Staples Retailing,62
+997,Geelong,Software and Services,78
+998,Nassau,Energy,21
+999,Honolulu,Materials,13
+1000,İzmir,Media and Entertainment,70

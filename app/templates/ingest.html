@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<a href="{{url_for('mappings')}}"><i class="material-icons" style="float: right;">map</i></a>
+<a href="{{url_for('settings')}}"><i class="material-icons" style="float: right;">settings</i></a>
+<h1>Records Added: {details}</h1>
+{% endblock %}

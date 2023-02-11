@@ -2,32 +2,36 @@ version: '3'
 
 services:
   elasticsearch:
-      build: elasticsearch/
-      volumes:
-        - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
-      ports:
-        - "9200:9200"
-        - "9300:9300"
-      environment:
-        - "cluster.name=elasticsearch"
-        - "ES_JAVA_OPTS=-Xms256m -Xmx256m"
-        - "XPACK_SECURITY_ENABLED=false"
-      networks:
-        - elk
-      healthcheck:
-        test: "curl http://elasticsearch:9200"
-        interval: "1s"
-        timeout: "3s"
-        retries: 60
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.6.1
+    container_name: elasticsearch
+    environment:
+      - node.name=elasticsearch
+      - discovery.seed_hosts=elasticsearch
+      - cluster.initial_master_nodes=elasticsearch
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+
   app:
     build: ./app
     restart: always
-    ports:
-      - "5000:5000"
-    environment:
-      - "DOCKER_MACHINE_IP=${DOCKER_MACHINE_IP}"
+    container_name: webapp
     depends_on:
       - elasticsearch
-networks:
-  elk:
-    driver: bridge
+    ports:
+      - 5000:5000
+    environment:
+      PYTHONUNBUFFERED: 0
+      ELASTICSEARCH_URL: "http://elasticsearch:9200"
+
+volumes:
+  esdata1:
+    driver: local

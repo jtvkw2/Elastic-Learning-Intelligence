@@ -1,3 +1,4 @@
 __pycache__/
 index_mappings.py
 json_mappings.py
+.env

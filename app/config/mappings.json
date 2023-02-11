@@ -8,14 +8,17 @@
             "age": "age",
             "gender": "gender"
         },
-        "relationships": [
+        "relationships": 
+        [
             {
-                "type": "WORKS_AT",
-                "n2": "company_id"
+                "node_type": "Company",
+                "relationship": "WORKS_AT",
+                "id": "company_id"
             },
             {
-                "type": "LIVES_IN",
-                "n2": "address_id"
+                "node_type": "Address",
+                "relationship": "LIVES_IN",
+                "id": "address_id"
             }
         ]
     },
@@ -28,8 +31,9 @@
         },
         "relationships": [
             {
-                "type": "LOCATED_IN",
-                "n2": "address_id"
+                "node_type": "Address",
+                "relationship": "LOCATED_IN",
+                "id": "address_id"
             }
         ]
     },
