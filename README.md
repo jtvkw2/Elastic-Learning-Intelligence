@@ -1,4 +1,4 @@
-# Elastic Learning IntElligence (ELIE)
+# ELastic Learning IntElligence (ELLIE)
 An artificially inteligent search assistant using a elasticsearch based knowledge graph, natural language processing and reinforcement learning.
 
 ## This Project is Still Under Development
