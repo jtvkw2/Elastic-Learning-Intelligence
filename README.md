@@ -1,8 +1,5 @@
-# ElasticGraph
-
-![ElasticGraph Logo](static/images/logo-banner.png "Title")
-
-A graph based semantic search engine webapp built onto of a ElasticSearch. Designed to connect and search large amounts of data from a simple user interface. 
+# Elastic Learning IntElligence (ELIE)
+An artificially inteligent search assistant using a elasticsearch based knowledge graph, natural language processing and reinforcement learning.
 
 ## This Project is Still Under Development
 Please check back later to use this tool once I have a release or help contribute to the project.
